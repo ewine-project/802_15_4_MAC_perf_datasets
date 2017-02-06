@@ -15,6 +15,7 @@ Two datasets are provided:
 * a coarse-granularity dataset with long-term MAC statistics collected over observation intervals with granularity of 30 seconds, located in the dataset repository location ./datasets/Testing_data/802_15_4_perf_30s.csv. Both datasets consist of the following environmental parameters and measured MAC performance metrics: node density, interference Indication, traffic load, throughput, packet loss, packet loss rate (PLR), packet reception rate (PRR).
 
 **Dataset format**
+
 The 802.15.4 MAC layer performance dataset consists of the following 8 columns, respectively: '*NumOfReceived*', '*PRR*', '*packetLoss*', '*PLR*', '*throughput*', '*IPI*', '*Density*', '*COR*', corresponding to the following MAC-level statistics:
 * '*NumOfReceived*' is the number of received frames during a particular observation interval;
 * '*PRR*' is the Packet Reception Rate, e.g. the percentage of received frames withing a particular observation interval;
