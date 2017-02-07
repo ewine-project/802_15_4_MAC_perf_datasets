@@ -11,8 +11,8 @@ We used an USRP B210 to generate controllable interference patterns by periodica
 
 ## **Dataset description**
 Two datasets are provided:
-* a fine-granularity dataset with short-term MAC statistics over measurement periods of 5 seconds, located in the dataset repository location ./datasets/Training_data/802_15_4_MACperf_5s.csv, and 
-* a coarse-granularity dataset with long-term MAC statistics collected over observation intervals with granularity of 30 seconds, located in the dataset repository location ./datasets/Testing_data/802_15_4_perf_30s.csv. Both datasets consist of the following environmental parameters and measured MAC performance metrics: node density, interference Indication, traffic load, throughput, packet loss, packet loss rate (PLR), packet reception rate (PRR).
+* a fine-granularity dataset with short-term MAC statistics over measurement periods of 5 seconds, located in the [dataset repository](#dataset-repository) location ./datasets/Training_data/802_15_4_MACperf_5s.csv, and 
+* a coarse-granularity dataset with long-term MAC statistics collected over observation intervals with granularity of 30 seconds, located in the [dataset repository](#dataset-repository) location ./datasets/Testing_data/802_15_4_perf_30s.csv. Both datasets consist of the following environmental parameters and measured MAC performance metrics: node density, interference Indication, traffic load, throughput, packet loss, packet loss rate (PLR), packet reception rate (PRR).
 
 **Dataset format**
 
@@ -29,7 +29,7 @@ The 802.15.4 MAC layer performance dataset consists of the following 8 columns, 
 
 ## **How to use the dataset**
 
-The MAC-level performance dataset can be loaded into a Pandas dataframe for easier further data manipulation using the followig Python script:
+The MAC-level performance dataset can be loaded into a Pandas dataframe for easier further data manipulation using the following Python script:
 
 ```
 
